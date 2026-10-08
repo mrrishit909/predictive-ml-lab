@@ -1,0 +1,41 @@
+# NOTE: landing this file in the repo may require the push token/credential
+# used to publish this repo to carry the "Workflows" permission scope (the
+# one used for Pages/content pushes elsewhere in this project often does
+# not). That is outside this agent's control - documenting it here rather
+# than silently assuming it will land.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install Python dependencies
+        run: uv pip install --system -r requirements.txt
+
+      - name: Run pytest
+        run: pytest tests/ -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install web dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Build web
+        working-directory: web
+        run: npm run build

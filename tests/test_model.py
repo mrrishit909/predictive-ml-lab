@@ -1,11 +1,15 @@
 """Model-pipeline tests: no leakage, reproducible, beats dummy baseline."""
+import inspect
 import json
+import os
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "ml"))
 
 ROOT = Path(__file__).resolve().parent.parent
+
+os.environ.setdefault("MLFLOW_ALLOW_FILE_STORE", "true")
 
 
 def test_metrics_artifact_exists_and_beats_baseline():
@@ -54,3 +58,46 @@ def test_model_file_loads_and_predicts():
     df = pd.DataFrame([row])[feature_order]
     proba = model.predict_proba(df)[0, 1]
     assert 0.0 <= proba <= 1.0
+
+
+def test_bundle_has_sane_cost_optimal_threshold():
+    import joblib
+
+    bundle = joblib.load(ROOT / "artifacts" / "model.joblib")
+    assert "threshold" in bundle
+    assert 0.0 < bundle["threshold"] < 1.0
+
+
+def test_cost_threshold_metrics_confusion_matrix_is_internally_consistent():
+    metrics = json.loads((ROOT / "artifacts" / "metrics.json").read_text())
+    ctm = metrics["cost_threshold_metrics"]
+    cm = ctm["confusion_matrix"]
+    total = cm["tp"] + cm["fp"] + cm["fn"] + cm["tn"]
+
+    # Same held-out test set every model in `results` was scored on, so the
+    # confusion-matrix total must match theirs exactly (same denominator,
+    # genuinely recomputed predictions at a different threshold).
+    by_name = {r["model"]: r for r in metrics["results"]}
+    dummy_cm = by_name["dummy"]["confusion_matrix"]
+    dummy_total = dummy_cm["tp"] + dummy_cm["fp"] + dummy_cm["fn"] + dummy_cm["tn"]
+    assert total == dummy_total
+    assert 0.0 < ctm["threshold"] < 1.0
+
+
+def test_threshold_selection_never_references_test_split():
+    """Structural regression test: the threshold-selection function must only
+    ever touch X_train/y_train, never X_test/y_test, enforced by inspecting
+    its actual source rather than trusting a docstring."""
+    import train
+
+    source = inspect.getsource(train.select_cost_optimal_threshold)
+    assert "X_test" not in source
+    assert "y_test" not in source
+
+
+def test_mlflow_has_at_least_three_runs():
+    import mlflow
+
+    mlflow.set_tracking_uri(f"file://{ROOT / 'mlruns'}")
+    runs = mlflow.search_runs(experiment_names=["predictive-churn"])
+    assert len(runs) >= 3

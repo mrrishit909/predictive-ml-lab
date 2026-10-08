@@ -1,0 +1,9 @@
+
+ RUN  v5.0.3 /Users/rishitmathurrishit/predictive-ml-lab/web
+
+
+ Test Files  2 passed (2)
+      Tests  4 passed (4)
+   Start at  06:01:34
+   Duration  657ms (environment 81%, transform 11%, import 5%, tests 2%, worker 1%)
+

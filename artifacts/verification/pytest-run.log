@@ -1,0 +1,74 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- /Users/rishitmathurrishit/predictive-ml-lab/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/rishitmathurrishit/predictive-ml-lab
+plugins: anyio-4.15.1
+collecting ... collected 29 items
+
+tests/test_api.py::test_health PASSED                                    [  3%]
+tests/test_api.py::test_predict_valid PASSED                             [  6%]
+tests/test_api.py::test_predict_missing_api_key_rejected PASSED          [ 10%]
+tests/test_api.py::test_predict_wrong_api_key_rejected PASSED            [ 13%]
+tests/test_api.py::test_predict_negative_tenure_rejected PASSED          [ 17%]
+tests/test_api.py::test_predict_missing_field_rejected PASSED            [ 20%]
+tests/test_api.py::test_predict_invalid_enum_rejected PASSED             [ 24%]
+tests/test_api.py::test_predict_nan_rejected PASSED                      [ 27%]
+tests/test_api.py::test_predict_out_of_range_rejected PASSED             [ 31%]
+tests/test_api.py::test_predict_malformed_json_rejected PASSED           [ 34%]
+tests/test_api.py::test_batch_predict PASSED                             [ 37%]
+tests/test_api.py::test_batch_predict_missing_api_key_rejected PASSED    [ 41%]
+tests/test_api.py::test_batch_predict_oversized_rejected PASSED          [ 44%]
+tests/test_api.py::test_batch_predict_empty_rejected PASSED              [ 48%]
+tests/test_api.py::test_models_current PASSED                            [ 51%]
+tests/test_api.py::test_explain_local PASSED                             [ 55%]
+tests/test_api.py::test_drift PASSED                                     [ 58%]
+tests/test_api.py::test_predict_works_without_database_url PASSED        [ 62%]
+tests/test_api.py::test_rate_limiter_allows_up_to_limit_then_blocks PASSED [ 65%]
+tests/test_api.py::test_rate_limiter_is_noop_without_backend PASSED      [ 68%]
+tests/test_api.py::test_rate_limiter_tracks_identities_independently PASSED [ 72%]
+tests/test_model.py::test_metrics_artifact_exists_and_beats_baseline PASSED [ 75%]
+tests/test_model.py::test_calibrated_model_has_lower_or_similar_brier_than_uncalibrated PASSED [ 79%]
+tests/test_model.py::test_no_future_leakage_cv_mean_close_to_test_auc PASSED [ 82%]
+tests/test_model.py::test_model_file_loads_and_predicts PASSED           [ 86%]
+tests/test_model.py::test_bundle_has_sane_cost_optimal_threshold PASSED  [ 89%]
+tests/test_model.py::test_cost_threshold_metrics_confusion_matrix_is_internally_consistent PASSED [ 93%]
+tests/test_model.py::test_threshold_selection_never_references_test_split PASSED [ 96%]
+tests/test_model.py::test_mlflow_has_at_least_three_runs PASSED          [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /Users/rishitmathurrishit/predictive-ml-lab/venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+api/main.py:166
+  /Users/rishitmathurrishit/predictive-ml-lab/api/main.py:166: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("startup")
+
+venv/lib/python3.12/site-packages/fastapi/applications.py:4744
+  /Users/rishitmathurrishit/predictive-ml-lab/venv/lib/python3.12/site-packages/fastapi/applications.py:4744: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    return self.router.on_event(event_type)  # ty: ignore[deprecated]
+
+tests/test_model.py::test_threshold_selection_never_references_test_split
+  /Users/rishitmathurrishit/predictive-ml-lab/venv/lib/python3.12/site-packages/shap/plots/colors/_colors.py:47: PendingDeprecationWarning: The set_bad function will be deprecated in a future version. Use cmap.with_extremes(bad=...) or Colormap(bad=...) instead.
+    red_blue.set_bad(gray_rgb.tolist(), 1.0)
+
+tests/test_model.py::test_threshold_selection_never_references_test_split
+  /Users/rishitmathurrishit/predictive-ml-lab/venv/lib/python3.12/site-packages/shap/plots/colors/_colors.py:48: PendingDeprecationWarning: The set_over function will be deprecated in a future version. Use cmap.with_extremes(over=...) or Colormap(over=...) instead.
+    red_blue.set_over(gray_rgb.tolist(), 1.0)
+
+tests/test_model.py::test_threshold_selection_never_references_test_split
+  /Users/rishitmathurrishit/predictive-ml-lab/venv/lib/python3.12/site-packages/shap/plots/colors/_colors.py:49: PendingDeprecationWarning: The set_under function will be deprecated in a future version. Use cmap.with_extremes(under=...) or Colormap(under=...) instead.
+    red_blue.set_under(gray_rgb.tolist(), 1.0)  # "under" is incorrectly used instead of "bad" in the scatter plot
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 29 passed, 6 warnings in 5.61s ========================

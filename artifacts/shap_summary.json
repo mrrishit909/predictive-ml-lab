@@ -1,78 +1,82 @@
 [
   {
+    "feature": "cat__Contract_Month-to-month",
+    "mean_abs_impact": 0.7725858855109637
+  },
+  {
     "feature": "num__tenure",
-    "mean_abs_impact": 0.0756564939673527
+    "mean_abs_impact": 0.2680413010953541
+  },
+  {
+    "feature": "cat__OnlineSecurity_No",
+    "mean_abs_impact": 0.24318875533771822
   },
   {
     "feature": "num__MonthlyCharges",
-    "mean_abs_impact": 0.030518097941802692
-  },
-  {
-    "feature": "cat__Dependents_No",
-    "mean_abs_impact": 0.016891412349183788
-  },
-  {
-    "feature": "num__TotalCharges",
-    "mean_abs_impact": 0.00610361958836052
-  },
-  {
-    "feature": "cat__Dependents_Yes",
-    "mean_abs_impact": 0.0046841731724627245
-  },
-  {
-    "feature": "cat__Partner_Yes",
-    "mean_abs_impact": 0.002980837473385356
-  },
-  {
-    "feature": "cat__InternetService_No",
-    "mean_abs_impact": 0.0026969481902058058
-  },
-  {
-    "feature": "cat__MultipleLines_Yes",
-    "mean_abs_impact": 0.0024130589070262554
-  },
-  {
-    "feature": "cat__gender_Male",
-    "mean_abs_impact": 0.0008516678495386065
-  },
-  {
-    "feature": "cat__InternetService_DSL",
-    "mean_abs_impact": 0.0005677785663590785
-  },
-  {
-    "feature": "cat__gender_Female",
-    "mean_abs_impact": 0.00042583392476929215
-  },
-  {
-    "feature": "cat__SeniorCitizen_0",
-    "mean_abs_impact": 0.00014194464158976406
-  },
-  {
-    "feature": "cat__SeniorCitizen_1",
-    "mean_abs_impact": -0.00028388928317959474
-  },
-  {
-    "feature": "cat__MultipleLines_No phone service",
-    "mean_abs_impact": -0.00028388928317959474
-  },
-  {
-    "feature": "cat__Partner_No",
-    "mean_abs_impact": -0.0008516678495387175
-  },
-  {
-    "feature": "cat__MultipleLines_No",
-    "mean_abs_impact": -0.0012775017743080542
-  },
-  {
-    "feature": "cat__PhoneService_No",
-    "mean_abs_impact": -0.0024130589070262775
-  },
-  {
-    "feature": "cat__PhoneService_Yes",
-    "mean_abs_impact": -0.00397444996451386
+    "mean_abs_impact": 0.2012396672883224
   },
   {
     "feature": "cat__InternetService_Fiber optic",
-    "mean_abs_impact": -0.0045422285308729824
+    "mean_abs_impact": 0.17057497883036582
+  },
+  {
+    "feature": "cat__Contract_Two year",
+    "mean_abs_impact": 0.16784133800552842
+  },
+  {
+    "feature": "cat__TechSupport_No",
+    "mean_abs_impact": 0.16746721803127623
+  },
+  {
+    "feature": "cat__PaymentMethod_Electronic check",
+    "mean_abs_impact": 0.14596799573887403
+  },
+  {
+    "feature": "num__TotalCharges",
+    "mean_abs_impact": 0.06873858004532378
+  },
+  {
+    "feature": "cat__PaperlessBilling_No",
+    "mean_abs_impact": 0.06773095680634965
+  },
+  {
+    "feature": "cat__Contract_One year",
+    "mean_abs_impact": 0.06587645399789617
+  },
+  {
+    "feature": "cat__StreamingMovies_Yes",
+    "mean_abs_impact": 0.05749972276372798
+  },
+  {
+    "feature": "cat__OnlineBackup_No",
+    "mean_abs_impact": 0.046527097622676275
+  },
+  {
+    "feature": "cat__MultipleLines_No",
+    "mean_abs_impact": 0.046177136325994766
+  },
+  {
+    "feature": "cat__SeniorCitizen_0",
+    "mean_abs_impact": 0.015630384877230345
+  },
+  {
+    "feature": "cat__Dependents_No",
+    "mean_abs_impact": 0.011546320635872676
+  },
+  {
+    "feature": "cat__PaperlessBilling_Yes",
+    "mean_abs_impact": 0.011461623089291125
+  },
+  {
+    "feature": "cat__InternetService_DSL",
+    "mean_abs_impact": 0.011106485870217403
+  },
+  {
+    "feature": "cat__PhoneService_No",
+    "mean_abs_impact": 0.010012965507050475
+  },
+  {
+    "feature": "cat__gender_Female",
+    "mean_abs_impact": 0.008380946979213764
   }
 ]

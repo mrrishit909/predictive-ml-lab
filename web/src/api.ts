@@ -31,6 +31,13 @@ export const DEFAULT_CUSTOMER: CustomerFeatures = {
 
 const BASE = '/api'
 
+// POST /predict and /predict/batch now require X-API-Key (see api/main.py's
+// predict_guard). VITE_API_KEY lets each deployment inject its own real key
+// at build time; the fallback matches docker-compose.yml's documented local
+// dev default so `npm run dev` + `docker compose up` work together out of
+// the box without any manual config.
+const API_KEY = import.meta.env.VITE_API_KEY ?? 'local-dev-placeholder-key'
+
 async function j<T>(res: Response): Promise<T> {
   if (!res.ok) {
     const body = await res.json().catch(() => ({}))
@@ -39,13 +46,19 @@ async function j<T>(res: Response): Promise<T> {
   return res.json()
 }
 
+function authedPost(path: string, body: unknown) {
+  return fetch(`${BASE}${path}`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'X-API-Key': API_KEY },
+    body: JSON.stringify(body),
+  })
+}
+
 export const api = {
   health: () => fetch(`${BASE}/health`).then((r) => j<{ status: string; model_loaded: boolean }>(r)),
   currentModel: () => fetch(`${BASE}/models/current`).then((r) => j<any>(r)),
-  predict: (customer: CustomerFeatures) =>
-    fetch(`${BASE}/predict`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(customer) }).then((r) => j<any>(r)),
-  explainLocal: (customer: CustomerFeatures) =>
-    fetch(`${BASE}/explain/local`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(customer) }).then((r) => j<any>(r)),
+  predict: (customer: CustomerFeatures) => authedPost('/predict', customer).then((r) => j<any>(r)),
+  explainLocal: (customer: CustomerFeatures) => authedPost('/explain/local', customer).then((r) => j<any>(r)),
   explainGlobal: () => fetch(`${BASE}/explain/global`).then((r) => j<any[]>(r)),
   drift: (days = 30) => fetch(`${BASE}/drift?days=${days}`).then((r) => j<any[]>(r)),
 }

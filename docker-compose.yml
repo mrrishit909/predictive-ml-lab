@@ -1,0 +1,59 @@
+# Local Docker Compose only - nothing here is deployed to any real cloud host.
+# One command: `docker compose up --build` (see README.md).
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: predictive
+      POSTGRES_PASSWORD: predictive_local_only
+      POSTGRES_DB: predictive
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U predictive -d predictive"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      # Placeholder only - override in a real .env, never commit a real key.
+      API_KEYS: ${API_KEYS:-local-dev-placeholder-key}
+      DATABASE_URL: postgresql://predictive:predictive_local_only@postgres:5432/predictive
+      REDIS_URL: redis://redis:6379/0
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:

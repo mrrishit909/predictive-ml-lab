@@ -1,0 +1,522 @@
+[
+  {
+    "id": "heading-order",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "description": "Ensure the order of headings is semantically correct",
+    "help": "Heading levels should only increase by one",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/heading-order?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "heading-order",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Heading order invalid"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h3 class=\"text-lg font-semibold\">Result</h3>",
+        "target": [
+          "h3"
+        ],
+        "failureSummary": "Fix any of the following:\n  Heading order invalid"
+      }
+    ]
+  },
+  {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "description": "Ensure the document has a main landmark",
+    "help": "Document should have one main landmark",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/landmark-one-main?application=playwright",
+    "nodes": [
+      {
+        "any": [],
+        "all": [
+          {
+            "id": "page-has-main",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Document does not have a main landmark"
+          }
+        ],
+        "none": [],
+        "impact": "moderate",
+        "html": "<html lang=\"en\">",
+        "target": [
+          "html"
+        ],
+        "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+      }
+    ]
+  },
+  {
+    "id": "region",
+    "impact": "moderate",
+    "tags": [
+      "cat.keyboard",
+      "best-practice",
+      "RGAAv4",
+      "RGAA-9.2.1"
+    ],
+    "description": "Ensure all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<canvas class=\"w-full h-full\" width=\"1280\" height=\"720\"></canvas>",
+        "target": [
+          "canvas"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(1)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">SeniorCitizen</span><select class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\"><option value=\"0\">0</option><option value=\"1\">1</option></select></label>",
+        "target": [
+          "label:nth-child(2)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">Partner</span><select class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\"><option value=\"Yes\">Yes</option><option value=\"No\">No</option></select></label>",
+        "target": [
+          "label:nth-child(3)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">Dependents</span><select class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\"><option value=\"Yes\">Yes</option><option value=\"No\">No</option></select></label>",
+        "target": [
+          "label:nth-child(4)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">PhoneService</span><select class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\"><option value=\"Yes\">Yes</option><option value=\"No\">No</option></select></label>",
+        "target": [
+          "label:nth-child(5)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(6)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(7)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(8)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(9)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(10)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(11)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(12)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(13)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(14)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(15)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\">",
+        "target": [
+          "label:nth-child(16)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">tenure (months)</span><input class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\" min=\"0\" max=\"100\" type=\"number\" value=\"12\"></label>",
+        "target": [
+          "label:nth-child(17)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">MonthlyCharges</span><input class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\" min=\"0\" max=\"500\" step=\"0.1\" type=\"number\" value=\"70.5\"></label>",
+        "target": [
+          "label:nth-child(18)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<label class=\"flex flex-col gap-1 text-sm\"><span class=\"text-[#F0F3EB]/70\">TotalCharges</span><input class=\"bg-[#0B1110] border border-[#B5FFCE]/30 rounded px-2 py-1.5 text-[#F0F3EB] focus:border-[#B5FFCE] outline-none\" min=\"0\" max=\"20000\" step=\"0.1\" type=\"number\" value=\"840\"></label>",
+        "target": [
+          "label:nth-child(19)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div class=\"rounded-lg border border-[#B5FFCE]/20 p-6 flex flex-col gap-4\"><h3 class=\"text-lg font-semibold\">Result</h3><p class=\"text-[#F0F3EB]/50\">Fill the form and click Predict.</p></div>",
+        "target": [
+          ".rounded-lg"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[WebServer] INFO:     Started server process [21167]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] DATABASE_URL not set: prediction logging disabled
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+Running 5 tests using 1 worker
+
+  ✓  1 tests/e2e/app.spec.ts:11:1 › app loads, intro plays, and reveals the real prediction form (742ms)
+  ✘  2 tests/e2e/app.spec.ts:22:1 › filling the form and clicking Predict shows a result (311ms)
+  ✓  3 tests/e2e/app.spec.ts:40:1 › axe-core scan of the main page reports zero serious/critical violations (530ms)
+  ✓  4 tests/e2e/app.spec.ts:56:1 › mobile (390px) and desktop (1280px) screenshots (326ms)
+  ✓  5 tests/e2e/app.spec.ts:70:1 › prefers-reduced-motion: reduce skips the canvas intro entirely (189ms)
+
+
+  1) tests/e2e/app.spec.ts:22:1 › filling the form and clicking Predict shows a result ─────────────
+
+    Error: Predict click should show a probability result, see predict-click-error.txt if this fails
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      35 |     fs.writeFileSync(`${EVIDENCE_DIR}/predict-click-error.txt`, errorText ?? '')
+      36 |   }
+    > 37 |   expect(resultVisible, 'Predict click should show a probability result, see predict-click-error.txt if this fails').toBe(true)
+         |                                                                                                                      ^
+      38 | })
+      39 |
+      40 | test('axe-core scan of the main page reports zero serious/critical violations', async ({ page }) => {
+        at /Users/rishitmathurrishit/predictive-ml-lab/web/tests/e2e/app.spec.ts:37:118
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/app-filling-the-form-and-clicking-Predict-shows-a-result/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/app-filling-the-form-and-clicking-Predict-shows-a-result/error-context.md
+
+  1 failed
+    tests/e2e/app.spec.ts:22:1 › filling the form and clicking Predict shows a result ──────────────
+  4 passed (6.2s)

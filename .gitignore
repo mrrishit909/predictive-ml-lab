@@ -7,3 +7,6 @@ node_modules/
 dist/
 *.db
 .DS_Store
+mlruns/
+web/test-results/
+web/playwright-report/

@@ -165,7 +165,7 @@ function Explainability() {
   )
 }
 
-function ModelComparison() {
+export function ModelComparison() {
   const [metrics, setMetrics] = useState<any>(null)
   useEffect(() => { api.currentModel().then(setMetrics) }, [])
   if (!metrics) return <p>Loading…</p>

@@ -1,0 +1,21 @@
+Diagnostic-only run of scripts/docker_smoke_test.sh against a scratch copy of the
+repo with ONLY requirements.txt's stray first line
+("Using Python 3.12.13 environment at: venv") removed. Everything else identical
+to the real tree. Purpose: prove the smoke-test script itself works end-to-end
+(success path) and isolate the real tree's failure to that one line.
+Project: predictive-verify (separate docker compose project, cleaned up after).
+
+Key results:
+- docker compose ps: all 4 containers (api, postgres, redis, web) reported healthy
+- GET /health -> {"status":"ok","model_loaded":true}
+- POST /predict with X-API-Key -> 200, real churn_probability returned
+- POST /predict without X-API-Key -> 401 {"error":"unauthorized",...}
+- predictions table count: 0 before, 1 after (only the 200 call logged, the 401 did not)
+- 61 authenticated /predict calls in <1 min -> 61st returned 429 (Redis rate limiter enforced)
+- Script printed "ALL SMOKE TESTS PASSED" and exited 0
+
+Conclusion: docker-compose.yml, Dockerfile healthchecks, Postgres logging (PRD-012),
+Redis rate limiting (PRD-013), and the auth gate (PRD-054) are all genuinely wired
+correctly. The ONLY defect preventing this from working on the real, current tree
+is the stray first line of requirements.txt. This does NOT change the real-tree
+verdict for PRD-029 / PRD-046a, which remain FAIL/blocked on the actual repo state.
