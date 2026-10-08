@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 0,
+    "churn_probability": 0.38310283558192676,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 1,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 2,
+    "churn_probability": 0.3166792644482107,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 3,
+    "churn_probability": 0.1737808585715582,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 4,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 5,
+    "churn_probability": 0.008330678592415194,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 6,
+    "churn_probability": 0.005375013567784652,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 7,
+    "churn_probability": 0.18370410976129709,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 8,
+    "churn_probability": 0.5389247510198125,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 9,
+    "churn_probability": 0.24052094220790052,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 10,
+    "churn_probability": 0.0480376558235749,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 11,
+    "churn_probability": 0.19197831343403038,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 12,
+    "churn_probability": 0.5808235863515366,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 13,
+    "churn_probability": 0.456178486668857,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 14,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 15,
+    "churn_probability": 0.4341200260034185,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 16,
+    "churn_probability": 0.23331589242504486,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 17,
+    "churn_probability": 0.25282797479795194,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 18,
+    "churn_probability": 0.1737808585715582,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 19,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 20,
+    "churn_probability": 0.5677881490903255,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 21,
+    "churn_probability": 0.11323458623214386,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 22,
+    "churn_probability": 0.013330678592415195,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 23,
+    "churn_probability": 0.8679162982611258,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 24,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 25,
+    "churn_probability": 0.5724320263385531,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 26,
+    "churn_probability": 0.4312295810816059,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 27,
+    "churn_probability": 0.3404269072834817,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 28,
+    "churn_probability": 0.4227666652395552,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 29,
+    "churn_probability": 0.2323715915585499,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 30,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 31,
+    "churn_probability": 0.14676007001418198,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 32,
+    "churn_probability": 0.3459107475028335,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 33,
+    "churn_probability": 0.19909479924628998,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 34,
+    "churn_probability": 0.08214234359966072,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 35,
+    "churn_probability": 0.7603829774561481,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 36,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 37,
+    "churn_probability": 0.0407126706865864,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 38,
+    "churn_probability": 0.1982027196584366,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 39,
+    "churn_probability": 0.008330678592415194,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 40,
+    "churn_probability": 0.2709848840356165,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 41,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 42,
+    "churn_probability": 0.8280508651240357,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 43,
+    "churn_probability": 0.5027209153381454,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 44,
+    "churn_probability": 0.5195310047438544,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 45,
+    "churn_probability": 0.24251066657026601,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 46,
+    "churn_probability": 0.43355951246801416,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 47,
+    "churn_probability": 0.3618577762933893,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 48,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 49,
+    "churn_probability": 0.1625715174539602,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 50,
+    "churn_probability": 0.01412336151924446,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 51,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 52,
+    "churn_probability": 0.6770479834988873,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 53,
+    "churn_probability": 0.30259106019451537,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 54,
+    "churn_probability": 0.022035095296923685,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 55,
+    "churn_probability": 0.5966071428571429,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 56,
+    "churn_probability": 0.01412336151924446,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 57,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 58,
+    "churn_probability": 0.15877377142443377,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 59,
+    "churn_probability": 0.6155120790522626,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 60,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 61,
+    "churn_probability": 0.05287621516213424,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 62,
+    "churn_probability": 0.005375013567784652,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 63,
+    "churn_probability": 0.7073469084107382,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 64,
+    "churn_probability": 0.19861031466750198,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 65,
+    "churn_probability": 0.42870939798409485,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 66,
+    "churn_probability": 0.20599492745064438,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 67,
+    "churn_probability": 0.5974966642250888,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 68,
+    "churn_probability": 0.6509920375595902,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 69,
+    "churn_probability": 0.5354365078964761,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 70,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 71,
+    "churn_probability": 0.5827541354848833,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 72,
+    "churn_probability": 0.16348060836305112,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 73,
+    "churn_probability": 0.2613461954553479,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 74,
+    "churn_probability": 0.0,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 75,
+    "churn_probability": 0.1737808585715582,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 76,
+    "churn_probability": 0.18216254780431126,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 77,
+    "churn_probability": 0.14015070486178083,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 78,
+    "churn_probability": 0.2151349711004153,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 79,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 80,
+    "churn_probability": 0.44966138168923786,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 81,
+    "churn_probability": 0.19399851545423238,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 82,
+    "churn_probability": 0.4531261988461301,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 83,
+    "churn_probability": 0.14551581967197538,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 84,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 85,
+    "churn_probability": 0.17413502486853144,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 86,
+    "churn_probability": 0.6064748119715173,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 87,
+    "churn_probability": 0.19399851545423238,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 88,
+    "churn_probability": 0.5564384872835488,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 89,
+    "churn_probability": 0.7356075637445642,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 90,
+    "churn_probability": 0.07899229391521054,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 91,
+    "churn_probability": 0.5331314699392643,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 92,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 93,
+    "churn_probability": 0.47690498239535273,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 94,
+    "churn_probability": 0.1610170025399828,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 95,
+    "churn_probability": 0.032962768252898525,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 96,
+    "churn_probability": 0.02866847136818355,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 97,
+    "churn_probability": 0.34985682675000657,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 98,
+    "churn_probability": 0.3957599762763445,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 99,
+    "churn_probability": 0.4529215316907543,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 100,
+    "churn_probability": 0.16818839304141714,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 101,
+    "churn_probability": 0.08214234359966072,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 102,
+    "churn_probability": 0.33563050930375854,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 103,
+    "churn_probability": 0.06769367547959455,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 104,
+    "churn_probability": 0.4528279232703337,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 105,
+    "churn_probability": 0.46129083911238433,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 106,
+    "churn_probability": 0.25905238102235817,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 107,
+    "churn_probability": 0.8280508651240357,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 108,
+    "churn_probability": 0.5666659658565302,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 109,
+    "churn_probability": 0.6268727963671783,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 110,
+    "churn_probability": 0.13496729646522435,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 111,
+    "churn_probability": 0.42887352212984997,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 112,
+    "churn_probability": 0.8922222222222222,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 113,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 114,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 115,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 116,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 117,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 118,
+    "churn_probability": 0.1907131100135369,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 119,
+    "churn_probability": 0.0077945326904156325,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 120,
+    "churn_probability": 0.6182869377813198,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 121,
+    "churn_probability": 0.007001029827947254,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 122,
+    "churn_probability": 0.014912763605626479,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 123,
+    "churn_probability": 0.1982027196584366,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 124,
+    "churn_probability": 0.37379027930664754,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 125,
+    "churn_probability": 0.7294309354947653,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 126,
+    "churn_probability": 0.010192119309024273,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 127,
+    "churn_probability": 0.18359662420127731,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 128,
+    "churn_probability": 0.16575333563577838,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 129,
+    "churn_probability": 0.041691114952943344,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 130,
+    "churn_probability": 0.29608154221818606,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 131,
+    "churn_probability": 0.01412336151924446,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 132,
+    "churn_probability": 0.6991531317845142,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 133,
+    "churn_probability": 0.024130721330341727,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 134,
+    "churn_probability": 0.5761099521122753,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 135,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 136,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 137,
+    "churn_probability": 0.1813343730624973,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 138,
+    "churn_probability": 0.008330678592415194,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 139,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 140,
+    "churn_probability": 0.17131725274848988,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 141,
+    "churn_probability": 0.3957599762763445,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 142,
+    "churn_probability": 0.4703569005949958,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 143,
+    "churn_probability": 0.6417934312878133,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 144,
+    "churn_probability": 0.5490696785560444,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 145,
+    "churn_probability": 0.029549573274165082,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 146,
+    "churn_probability": 0.15489918824139046,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 147,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 148,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 149,
+    "churn_probability": 0.006168516430253032,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 150,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 151,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 152,
+    "churn_probability": 0.15481545215238587,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 153,
+    "churn_probability": 0.018849296077956334,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 154,
+    "churn_probability": 0.13718248633864205,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 155,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 156,
+    "churn_probability": 0.03038023582584965,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 157,
+    "churn_probability": 0.456178486668857,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 158,
+    "churn_probability": 0.07899229391521054,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 159,
+    "churn_probability": 0.30524201748464797,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 160,
+    "churn_probability": 0.017497345259081858,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 161,
+    "churn_probability": 0.44113710201429496,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 162,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 163,
+    "churn_probability": 0.35907567292537446,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 164,
+    "churn_probability": 0.6664480320062438,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 165,
+    "churn_probability": 0.3583510352442151,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 166,
+    "churn_probability": 0.8334724037600305,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 167,
+    "churn_probability": 0.40925988411190894,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 168,
+    "churn_probability": 0.6103257906215921,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 169,
+    "churn_probability": 0.8157904571991145,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 170,
+    "churn_probability": 0.8394794365526073,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 171,
+    "churn_probability": 0.12918205882385647,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 172,
+    "churn_probability": 0.2109307668962111,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 173,
+    "churn_probability": 0.07899229391521054,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 174,
+    "churn_probability": 0.37239022629952345,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 175,
+    "churn_probability": 0.24254114422810255,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 176,
+    "churn_probability": 0.5216803365316092,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 177,
+    "churn_probability": 0.013330678592415195,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 178,
+    "churn_probability": 0.15489918824139046,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 179,
+    "churn_probability": 0.25905238102235817,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 180,
+    "churn_probability": 0.33563050930375854,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 181,
+    "churn_probability": 0.004838867665785092,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 182,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 183,
+    "churn_probability": 0.39503533859518514,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 184,
+    "churn_probability": 0.029784997730611558,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 185,
+    "churn_probability": 0.13718248633864205,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 186,
+    "churn_probability": 0.15171737005957228,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 187,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 188,
+    "churn_probability": 0.03433672186854259,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 189,
+    "churn_probability": 0.10152760515092633,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 190,
+    "churn_probability": 0.6007732015175835,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 191,
+    "churn_probability": 0.04047724623013992,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 192,
+    "churn_probability": 0.8467624521072796,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 193,
+    "churn_probability": 0.028433046911737075,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 194,
+    "churn_probability": 0.46129083911238433,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 195,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 196,
+    "churn_probability": 0.35907567292537446,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 197,
+    "churn_probability": 0.2151349711004153,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 198,
+    "churn_probability": 0.8394794365526073,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 199,
+    "churn_probability": 0.8679162982611258,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 200,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 201,
+    "churn_probability": 0.12298050843625959,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 202,
+    "churn_probability": 0.4359661618433548,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 203,
+    "churn_probability": 0.8793448696896972,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 204,
+    "churn_probability": 0.3957599762763445,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 205,
+    "churn_probability": 0.017497345259081858,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 206,
+    "churn_probability": 0.13496729646522435,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 207,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 208,
+    "churn_probability": 0.19197831343403038,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 209,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 210,
+    "churn_probability": 0.4204106062877992,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 211,
+    "churn_probability": 0.5404831845513184,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 212,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 213,
+    "churn_probability": 0.4474172952510099,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 214,
+    "churn_probability": 0.2887916488051043,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 215,
+    "churn_probability": 0.3114424115458668,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 216,
+    "churn_probability": 0.41648647200284017,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 217,
+    "churn_probability": 0.5389247510198125,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 218,
+    "churn_probability": 0.18539173082624041,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 219,
+    "churn_probability": 0.14094695997024734,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 220,
+    "churn_probability": 0.17238728308367932,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 221,
+    "churn_probability": 0.18216254780431126,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 222,
+    "churn_probability": 0.8746658108058334,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 223,
+    "churn_probability": 0.17315558655454605,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 224,
+    "churn_probability": 0.37239022629952345,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 225,
+    "churn_probability": 0.03038023582584965,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 226,
+    "churn_probability": 0.40052775873836255,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 227,
+    "churn_probability": 0.5385420979585881,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 228,
+    "churn_probability": 0.32530965346908164,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 229,
+    "churn_probability": 0.54868702549482,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 230,
+    "churn_probability": 0.09247477846039746,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 231,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 232,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 233,
+    "churn_probability": 0.6141208791208791,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 234,
+    "churn_probability": 0.01412336151924446,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 235,
+    "churn_probability": 0.5694772990510508,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 236,
+    "churn_probability": 0.37239022629952345,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 237,
+    "churn_probability": 0.5211507936107619,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 238,
+    "churn_probability": 0.004838867665785092,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 239,
+    "churn_probability": 0.34812671489683683,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 240,
+    "churn_probability": 0.19197831343403038,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 241,
+    "churn_probability": 0.023151621659351685,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 242,
+    "churn_probability": 0.5890442611558733,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 243,
+    "churn_probability": 0.09565659664221564,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 244,
+    "churn_probability": 0.7821216052586057,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 245,
+    "churn_probability": 0.034931959963780686,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 246,
+    "churn_probability": 0.4550106458756694,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 247,
+    "churn_probability": 0.13496729646522435,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 248,
+    "churn_probability": 0.008330678592415194,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 249,
+    "churn_probability": 0.20052887564325603,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 250,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 251,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 252,
+    "churn_probability": 0.19399851545423238,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 253,
+    "churn_probability": 0.16348060836305112,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 254,
+    "churn_probability": 0.05948661704673965,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 255,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 256,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 257,
+    "churn_probability": 0.034931959963780686,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 258,
+    "churn_probability": 0.5229909202473256,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 259,
+    "churn_probability": 0.3957599762763445,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 260,
+    "churn_probability": 0.5856845384152862,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 261,
+    "churn_probability": 0.0077945326904156325,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 262,
+    "churn_probability": 0.12043419317234341,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 263,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 264,
+    "churn_probability": 0.9576354679802955,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 265,
+    "churn_probability": 0.8679162982611258,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 266,
+    "churn_probability": 0.12918205882385647,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 267,
+    "churn_probability": 0.10152760515092633,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 268,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 269,
+    "churn_probability": 0.1191305124321039,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 270,
+    "churn_probability": 0.1610170025399828,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 271,
+    "churn_probability": 0.3504205293298265,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 272,
+    "churn_probability": 0.7222819733458031,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 273,
+    "churn_probability": 0.15171737005957228,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 274,
+    "churn_probability": 0.29608154221818606,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 275,
+    "churn_probability": 0.18216254780431126,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 276,
+    "churn_probability": 0.2166483211182983,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 277,
+    "churn_probability": 0.20531920547069618,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 278,
+    "churn_probability": 0.3114424115458668,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 279,
+    "churn_probability": 0.5178697864808054,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 280,
+    "churn_probability": 0.38382747326308625,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 281,
+    "churn_probability": 0.20221269273894543,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 282,
+    "churn_probability": 0.4943753719926021,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 283,
+    "churn_probability": 0.0,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 284,
+    "churn_probability": 0.117225279569531,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 285,
+    "churn_probability": 1.0,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 286,
+    "churn_probability": 0.11500484088790293,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 287,
+    "churn_probability": 0.24254114422810255,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 288,
+    "churn_probability": 0.029784997730611558,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 289,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 290,
+    "churn_probability": 0.162397892538766,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 291,
+    "churn_probability": 0.16348060836305112,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 292,
+    "churn_probability": 0.0077945326904156325,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 293,
+    "churn_probability": 0.30524201748464797,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 294,
+    "churn_probability": 0.007001029827947254,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 295,
+    "churn_probability": 0.2867105786701903,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 296,
+    "churn_probability": 0.19197831343403038,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 297,
+    "churn_probability": 0.37379027930664754,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 298,
+    "churn_probability": 0.45678728325478557,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 299,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 300,
+    "churn_probability": 0.5117029719288977,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 301,
+    "churn_probability": 0.6070232015175836,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 302,
+    "churn_probability": 0.017497345259081858,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 303,
+    "churn_probability": 0.4465477300336186,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 304,
+    "churn_probability": 0.6003073630082667,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 305,
+    "churn_probability": 0.007001029827947254,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 306,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 307,
+    "churn_probability": 0.19197831343403038,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 308,
+    "churn_probability": 0.350581464431166,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 309,
+    "churn_probability": 0.2385959977829561,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 310,
+    "churn_probability": 0.2109307668962111,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 311,
+    "churn_probability": 0.2613461954553479,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 312,
+    "churn_probability": 0.27260215601369253,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 313,
+    "churn_probability": 0.36005921791009515,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 314,
+    "churn_probability": 0.032962768252898525,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 315,
+    "churn_probability": 0.004838867665785092,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 316,
+    "churn_probability": 0.30486748790785484,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 317,
+    "churn_probability": 0.3870036623545396,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 318,
+    "churn_probability": 0.03038023582584965,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 319,
+    "churn_probability": 0.20111500126649196,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 320,
+    "churn_probability": 0.18359662420127731,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 321,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 322,
+    "churn_probability": 0.20052887564325603,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 323,
+    "churn_probability": 0.24016379935075766,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 324,
+    "churn_probability": 0.7400520081890086,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 325,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 326,
+    "churn_probability": 0.6991531317845142,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 327,
+    "churn_probability": 0.07899229391521054,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 328,
+    "churn_probability": 0.0077945326904156325,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 329,
+    "churn_probability": 0.8679162982611258,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 330,
+    "churn_probability": 0.15171737005957228,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 331,
+    "churn_probability": 0.6991531317845142,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 332,
+    "churn_probability": 0.029784997730611558,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 333,
+    "churn_probability": 0.7114883225521523,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 334,
+    "churn_probability": 0.2343917935787519,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 335,
+    "churn_probability": 0.005375013567784652,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 336,
+    "churn_probability": 0.4305049434004465,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 337,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 338,
+    "churn_probability": 0.07899229391521054,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 339,
+    "churn_probability": 0.3371059759556775,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 340,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 341,
+    "churn_probability": 0.2613461954553479,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 342,
+    "churn_probability": 0.048595430523006404,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 343,
+    "churn_probability": 0.008330678592415194,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 344,
+    "churn_probability": 0.27327869846860625,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 345,
+    "churn_probability": 0.16292671117717028,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 346,
+    "churn_probability": 0.08738283548653014,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 347,
+    "churn_probability": 0.54868702549482,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 348,
+    "churn_probability": 0.56817080215155,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 349,
+    "churn_probability": 0.11501008969611326,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 350,
+    "churn_probability": 0.041691114952943344,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 351,
+    "churn_probability": 0.6637701543283661,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 352,
+    "churn_probability": 0.606940650480834,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 353,
+    "churn_probability": 0.18418274982451327,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 354,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 355,
+    "churn_probability": 0.8555478126209832,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 356,
+    "churn_probability": 0.048324491024203206,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 357,
+    "churn_probability": 0.005375013567784652,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 358,
+    "churn_probability": 0.13587638737431523,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 359,
+    "churn_probability": 0.25683641362835496,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 360,
+    "churn_probability": 0.17413120343276073,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 361,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 362,
+    "churn_probability": 0.06310448024628741,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 363,
+    "churn_probability": 0.2089105648760091,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 364,
+    "churn_probability": 0.3171745204979063,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 365,
+    "churn_probability": 0.48318517563206775,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 366,
+    "churn_probability": 0.2313871501356132,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 367,
+    "churn_probability": 0.13496729646522435,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 368,
+    "churn_probability": 0.5112371334195809,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 369,
+    "churn_probability": 0.3206220845875735,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 370,
+    "churn_probability": 0.6182869377813198,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 371,
+    "churn_probability": 0.009956694852577797,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 372,
+    "churn_probability": 0.02179967084047721,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 373,
+    "churn_probability": 1.0,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 374,
+    "churn_probability": 0.23265948510121834,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 375,
+    "churn_probability": 0.32491790002135523,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 376,
+    "churn_probability": 1.0,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 377,
+    "churn_probability": 0.16348060836305112,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 378,
+    "churn_probability": 0.02075673759050433,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 379,
+    "churn_probability": 0.018849296077956334,
+    "churn_prediction": "No",
+    "actual_churn": 1
+  },
+  {
+    "id": 380,
+    "churn_probability": 0.1982027196584366,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 381,
+    "churn_probability": 0.041691114952943344,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 382,
+    "churn_probability": 0.16575333563577838,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 383,
+    "churn_probability": 0.19399851545423238,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 384,
+    "churn_probability": 0.5857670894520358,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 385,
+    "churn_probability": 0.6073058342623561,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 386,
+    "churn_probability": 0.1411737681183171,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 387,
+    "churn_probability": 0.2613461954553479,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 388,
+    "churn_probability": 0.6003073630082667,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 389,
+    "churn_probability": 0.004838867665785092,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 390,
+    "churn_probability": 0.2428147566408902,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 391,
+    "churn_probability": 0.1982027196584366,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 392,
+    "churn_probability": 0.0029556650246305416,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 393,
+    "churn_probability": 0.017633004173810543,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 394,
+    "churn_probability": 0.005375013567784652,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 395,
+    "churn_probability": 0.5502710383202982,
+    "churn_prediction": "Yes",
+    "actual_churn": 0
+  },
+  {
+    "id": 396,
+    "churn_probability": 0.8998576902025178,
+    "churn_prediction": "Yes",
+    "actual_churn": 1
+  },
+  {
+    "id": 397,
+    "churn_probability": 0.0032128514056224897,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 398,
+    "churn_probability": 0.01412336151924446,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  },
+  {
+    "id": 399,
+    "churn_probability": 0.03376267456895094,
+    "churn_prediction": "No",
+    "actual_churn": 0
+  }
+]
