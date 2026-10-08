@@ -1,8 +1,3 @@
-# NOTE: landing this file in the repo may require the push token/credential
-# used to publish this repo to carry the "Workflows" permission scope (the
-# one used for Pages/content pushes elsewhere in this project often does
-# not). That is outside this agent's control - documenting it here rather
-# than silently assuming it will land.
 name: CI
 
 on:
@@ -24,6 +19,12 @@ jobs:
 
       - name: Install Python dependencies
         run: uv pip install --system -r requirements.txt
+
+      - name: Download dataset
+        run: python data/download.py
+
+      - name: Train model (generates artifacts/ and mlruns/ - both gitignored, not committed)
+        run: python ml/train.py
 
       - name: Run pytest
         run: pytest tests/ -v
