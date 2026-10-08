@@ -6,12 +6,18 @@ export default defineConfig({
   base: '/predictive-ml-lab/',
   plugins: [react()],
   optimizeDeps: {
-    // onnxruntime-web's default build statically resolves its wasm binaries
-    // via import.meta.url, which makes Vite bundle a 28MB wasm asset inline
-    // instead of using the small, explicitly-versioned copies self-hosted at
-    // public/onnx/. Excluding it from dependency pre-bundling/optimization
-    // keeps it as a plain runtime import so ort.env.wasm.wasmPaths (set in
-    // src/inference/churnModel.ts) is what actually resolves the binary.
+    // onnxruntime-web's wasm-loading code is only reachable at runtime, not
+    // through normal static imports; pre-bundling it during dev breaks that.
+    // The actual wasm binary (ort-wasm-simd-threaded.wasm, ~14MB) is loaded
+    // via an explicit `?url` import in churnModel.ts/gridWorker.ts, which
+    // Vite serves/hashes as a single deduplicated asset - see the comment
+    // there for why that specific import shape matters.
     exclude: ['onnxruntime-web'],
+  },
+  worker: {
+    // The grid worker (src/inference/gridWorker.ts) dynamically imports
+    // onnxruntime-web, which needs ES module code-splitting. Vite's default
+    // worker bundle format is 'iife', which can't contain a dynamic import.
+    format: 'es',
   },
 })

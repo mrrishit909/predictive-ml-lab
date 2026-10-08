@@ -1,111 +1,207 @@
+@import '@fontsource-variable/bricolage-grotesque/standard.css';
+@import '@fontsource-variable/jetbrains-mono/wght.css';
+
+/* ============ design tokens (design/approved/colors.md, typography.md) ============ */
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --bg: #0b1110;
+  --mint: #b5ffce;
+  --ivory: #f0f3eb;
+  --coral: #ff866d;
+  --gray: #87928b;
+  --surface-1: #121a18;
+  --surface-2: #18221f;
+  --line: #24302c;
+  --gray-dim: #5e6862;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --mint-12: rgba(181, 255, 206, 0.12);
+  --mint-22: rgba(181, 255, 206, 0.22);
+  --mint-40: rgba(181, 255, 206, 0.4);
+  --coral-16: rgba(255, 134, 109, 0.16);
+  --coral-38: rgba(255, 134, 109, 0.38);
+  --coral-60: rgba(255, 134, 109, 0.6);
+  --ivory-35: rgba(240, 243, 235, 0.35);
+  --ivory-70: rgba(240, 243, 235, 0.7);
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-sans: 'Bricolage Grotesque Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --space-9: 120px;
+
+  color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+* {
   box-sizing: border-box;
 }
 
-body {
+html,
+body,
+#root {
   margin: 0;
+  min-height: 100svh;
+  background: var(--bg);
+  color: var(--ivory);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  border: none;
 }
 
 h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+h2,
+h3 {
+  font-family: var(--font-sans);
+  margin: 0;
+  letter-spacing: -0.025em;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
 p {
   margin: 0;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.mono,
+.num,
+code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums slashed-zero;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+/* type scale (clamp 390px -> 1440px per typography.md) */
+.t-display {
+  font: 800 clamp(56px, 10.6vw, 128px) / 0.92 var(--font-sans);
+  letter-spacing: -0.035em;
+}
+.t-h1 {
+  font: 600 clamp(40px, 5.5vw, 80px) / 0.98 var(--font-sans);
+  letter-spacing: -0.025em;
+}
+.t-h2 {
+  font: 600 clamp(28px, 3vw, 44px) / 1.05 var(--font-sans);
+  letter-spacing: -0.015em;
+}
+.t-lede {
+  font: 400 clamp(19px, 1.8vw, 24px) / 1.4 var(--font-sans);
+  letter-spacing: -0.005em;
+}
+.t-body {
+  font: 400 clamp(16px, 1.1vw, 17px) / 1.55 var(--font-sans);
+  max-width: 56ch;
+}
+.t-label {
+  font: 600 clamp(12px, 0.9vw, 13px) / 1.2 var(--font-sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.t-num-hero {
+  font: 500 clamp(48px, 7vw, 96px) / 1 var(--font-mono);
+  letter-spacing: -0.02em;
+}
+.t-num-lg {
+  font: 500 clamp(22px, 2.2vw, 32px) / 1.1 var(--font-mono);
+  letter-spacing: -0.01em;
+}
+.t-num {
+  font: 400 clamp(13px, 1vw, 14px) / 1.35 var(--font-mono);
+}
+.t-micro {
+  font: 400 11px / 1.3 var(--font-mono);
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+
+a {
+  color: var(--mint);
+}
+
+button {
+  font-family: var(--font-sans);
+  color: inherit;
+}
+
+/* focus ring (interaction-map.md: 2px mint, 2px bg offset) */
+:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.visually-hidden:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  clip: auto;
+}
+
+.live-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--mint);
+  margin-right: 6px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .live-dot.pulsing {
+    animation: live-pulse 240ms ease-out;
+  }
+}
+@keyframes live-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.live-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--mint);
+  animation: underline-fade 400ms ease-out;
+}
+@keyframes underline-fade {
+  from {
+    text-decoration-color: var(--mint);
+  }
+  to {
+    text-decoration-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }
