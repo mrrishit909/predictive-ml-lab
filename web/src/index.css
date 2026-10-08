@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --graphite: #0B1110;
+  --mint: #B5FFCE;
+  --ivory: #F0F3EB;
+  --coral: #FF866D;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--graphite);
+  color: var(--ivory);
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
